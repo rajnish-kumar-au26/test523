@@ -118,6 +118,15 @@ A Todo App built with React, Material-UI, and Express.js. This application allow
    
    - DELETE /items/:id: Delete an item.
 
+## JWT Authentication Middleware
+   - The application uses JWT tokens for authentication. When a user logs in, a JWT token is generated and stored in a cookie. This token is then sent with        each request to protected routes to verify the user's identity
+   - The authentication middleware verifies the JWT token included in the request cookies. If the token is valid, the request is allowed to proceed.       
+     Otherwise, the request is rejected with a 401 Unauthorized response.
+
+
+## Protected Routes
+   - The item routes (/items) are protected using the authentication middleware. Only authenticated users can access these routes. If a user tries to access       a protected route without a valid token, they will receive a 401 Unauthorized response.
+     
 ## Technologies Used
    - Technologies Used
    - React
@@ -133,6 +142,13 @@ A Todo App built with React, Material-UI, and Express.js. This application allow
    - Axios
    
    - React Toastify
+
+## Deployment
+## Backend 
+   [Backend](www.google.com)
+
+## Frontend 
+   [Forntend](www.google.com)
 
 
 
