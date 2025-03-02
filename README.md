@@ -76,7 +76,64 @@ A Todo App built with React, Material-UI, and Express.js. This application allow
    
    - Click the Login button to log in.
 
+## Add Item
+
+   - Once logged in, navigate to the Items page.
+
+   - Fill in the title and description in the Add Item form.
    
+   - Click the Add Item button to add the ite
+
+## Edit Item
+
+   -On the Items page, click the Edit button next to the item you want to edit.
+
+   - Update the title and description.
+
+   - Click the Save button to save the changes.
+
+## Delete Item
+
+   - On the Items page, click the Delete button next to the item you want to delete.
+
+   - Confirm the deletion.
+
+## API Endpoints
+## User Routes
+   - POST /users/register: Register a new user.
+   
+   - POST /users/login: Log in a user.
+   
+   - GET /users/logout: Log out a user.
+   
+   - GET /auth/check-token: Check if the JWT token is valid.
+
+## Item Routes
+
+   - GET /items: Get all items.
+   
+   - POST /items: Add a new item.
+   
+   - PUT /items/:id: Update an item.
+   
+   - DELETE /items/:id: Delete an item.
+
+## Technologies Used
+   - Technologies Used
+   - React
+   
+   - Material-UI
+   
+   - Express.js
+   
+   - PostgreSQL
+   
+   - JWT (JSON Web Token)
+   
+   - Axios
+   
+   - React Toastify
+
 
 
 
