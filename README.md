@@ -22,5 +22,12 @@ A Todo App built with React, Material-UI, and Express.js. This application allow
    ```bash
    git clone https://github.com/your-username/todo-app.git
 # Navigate to the project directory:
-```bash
-cd todo-app
+   ```bash
+      cd todo-app
+# Install the dependencies for both the backend and frontend:
+   ```
+   cd backend
+   npm install
+   cd ../frontend
+   npm install
+
