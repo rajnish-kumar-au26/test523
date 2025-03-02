@@ -60,15 +60,14 @@ A Todo App built with React, Material-UI, and Express.js. This application allow
 
 
 
- # Register
+ ## Register
 
-   Md
    
-      - Click on the Register button in the navbar.
+   - Click on the Register button in the navbar.
+
+   - Fill in your name, email, and password.
    
-      - Fill in your name, email, and password.
-      
-      - Click the Register button to create an account.
+   - Click the Register button to create an account.
 
    
 
